@@ -50,12 +50,12 @@ education:
     institution: University of Oxford
     date_start: 2024-10-01
     date_end: 2028-06-30
-    summary: |
-      EPSRC StatML Centre for Doctoral Training
+    summary: |2-
+      EPSRC StatML Centre for Doctoral Training, affiliated with Jesus College
       
-      Current project: Loss-calibrated Bayesian active learning, supervised by Dr. Tom Rainforth.
+      - Current project: Loss-calibrated Bayesian active learning, supervised by Dr. Tom Rainforth.
       
-      Previous project: Bayesian nonparametric inference for heterogeneous treatment effects, supervised by Prof. Judith Rousseau and Dr. Kolyan Ray.
+      - Previous project: Bayesian nonparametric inference for heterogeneous treatment effects, supervised by Prof. Judith Rousseau and Dr. Kolyan Ray.
   - area: MASt in Mathematical Statistics (Part III)
     institution: University of Cambridge
     date_start: 2023-10-01
@@ -63,15 +63,13 @@ education:
     summary: |
       First Class Honours
       
-      Relevant modules: Statistical Learning in Practice, Information Theory, Robust Statistics, Modern Statistical Methods, Concentration Inequalities, Statistics in Medicine
+      Affiliated with Jesus College
   - area: BSc Mathematics
     institution: Imperial College London
     date_start: 2020-10-01
     date_end: 2023-06-30
     summary: |
-      First Class Honours (GPA: 90.66%, ranking top 1% out of 251 students)
-      
-      Relevant modules: Optimisation, Methods for Data Science, Statistical Modelling, Stochastic Simulation, Applied Probability, Statistical Theory, Principles of Programming
+      First Class Honours (GPA: 90.66%)
 work:
   - position: Research Assistant
     company_name: University of Hong Kong
@@ -79,10 +77,8 @@ work:
     company_logo: ''
     date_start: 2024-07-01
     date_end: 2024-10-01
-    summary: |2-
+    summary: |
       Bayesian Sequential Regression on Longitudinal Data (Supervisor: Dr Edwin Fong)
-      - Derived GP-based Bayesian non-parametric estimators for ATE
-      - Collapsed high-dimensional features into a single dimension, accelerating posterior contraction while maintaining >93% coverage
   - position: AI Research Engineer
     company_name: Imagination Technologies
     company_url: 'https://www.imaginationtech.com/'
@@ -90,9 +86,7 @@ work:
     date_start: 2022-07-01
     date_end: 2022-09-01
     summary: |
-      - Architected PyTorch convolutional RNNs for video super-resolution
-      - Introduced temporal jitter–aware sample accumulation with motion-vector metadata
-      - Developed GPU-efficient alignment method, co-authored patent and presented work department-wide
+      Deep learning for Video Super-resolution (Mentor: Joe Heyward)
   - position: Teaching Assistant
     company_name: Imperial College London
     company_url: 'https://www.imperial.ac.uk/'
@@ -100,8 +94,7 @@ work:
     date_start: 2022-10-01
     date_end: 2023-04-01
     summary: |
-      - Provided academic support to first-year undergraduates on Probability and Statistics
-      - Conducted tutorials and helped students with coursework
+      MATH40005 Probability and Statistics
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -192,4 +185,4 @@ awards:
 
 ## About Me
 
-I’m a DPhil student in the [EPSRC CDT in Statistics and Machine Learning (StatML)](https://statml.io) at the [University of Oxford](https://www.ox.ac.uk/), where I’m advised by [Tom Rainforth](https://www.robots.ox.ac.uk/~twgr/). My work focuses on probabilistic machine learning, with current focus on Bayesian active learning.
+Hey, I am Zhuoyue! I’m a DPhil student in the [EPSRC CDT in Statistics and Machine Learning (StatML)](https://statml.io) at the [University of Oxford](https://www.ox.ac.uk/), where I’m advised by [Tom Rainforth](https://www.robots.ox.ac.uk/~twgr/). My work focuses on probabilistic machine learning, with current projects on Bayesian active learning.
