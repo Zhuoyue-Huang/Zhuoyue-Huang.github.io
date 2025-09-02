@@ -46,7 +46,7 @@ interests:
   - Uncertainty Quantification
 
 education:
-  - area: DPhil in StatML
+  - area: StatML CDT
     institution: University of Oxford
     date_start: 2024-10-01
     date_end: 2028-06-30
@@ -63,7 +63,7 @@ education:
     summary: |
       First Class Honours
       
-      Affiliated with Jesus College
+      Affiliated with Churchill College
   - area: BSc Mathematics
     institution: Imperial College London
     date_start: 2020-10-01
