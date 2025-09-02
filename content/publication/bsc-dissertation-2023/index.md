@@ -5,10 +5,10 @@ title: 'Signature Inversion via Orthogonal Polynomials'
 authors:
   - admin
 
-date: '2023-06-01T00:00:00Z'
+date: '2023-06-13T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-06-01T00:00:00Z'
+publishDate: '2023-06-13T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -19,7 +19,7 @@ publication_types: ['thesis']
 publication: BSc Dissertation, Imperial College London
 publication_short: BSc Thesis
 
-abstract: This dissertation develops and implements a Python-based signature inversion framework using recursive basis-expansion formulas for arbitrary measures and multidimensional paths. The work provides theoretical foundations for signature inversion methods and demonstrates superior accuracy compared to traditional insertion methods. The framework handles complex geometric structures in path spaces through orthogonal polynomial bases, offering both computational efficiency and mathematical rigor.
+abstract: In this thesis, we propose a method to reconstruct a path from its truncated signature. This is achieved through explicit recursive formulae for the coefficients of an orthogonal polynomial expansion of the path, represented as linear functionals of the signature. A key example of our approach is the application of ‘shift-and-scale’ Hermite polynomials, which facilitates the accurate point-wise recovery of the path with relatively small errors. Consequently, this leads to the successful implementation of point-wise signature inversion utilizing Hermite polynomials. The novel techniques proposed in this study offer an innovative insight into the field of signature inversion and potentially pave the way for more accurate and efficient computational methods.
 
 # Summary. An optional shortened abstract.
 summary: A comprehensive study of signature inversion methods using orthogonal polynomial bases, with practical implementations and theoretical analysis.
@@ -35,16 +35,16 @@ tags:
 featured: true
 
 # Standard identifiers for auto-linking
-hugoblox:
-  ids:
-    doi: ""
+# hugoblox:
+#   ids:
+#     doi: ""
 
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: "Zhuoyue_Signature_Inversion_final_submission.pdf"  # Add your PDF here when available
   - type: code
-    url: ""
+    url: "https://github.com/Zhuoyue-Huang/M3R-signature-inversion"  # Add GitHub repository URL if available
 
 # Featured image
 image:
@@ -59,17 +59,17 @@ projects: []
 slides: ""
 ---
 
-This BSc dissertation explores the mathematical theory and computational implementation of signature inversion methods using orthogonal polynomial bases.
+<!-- This BSc dissertation explores the mathematical theory and computational implementation of signature inversion methods using orthogonal polynomial bases.
 
 **Key Achievements:**
 - Developed a novel Python framework for signature inversion
 - Implemented recursive basis-expansion formulas for arbitrary measures
 - Extended methods to multidimensional path spaces
 - Demonstrated superior accuracy compared to existing insertion methods
-- Provided theoretical analysis of convergence properties
+- Provided theoretical analysis of convergence properties -->
 
 **Supervision:** Dr. Cristopher Salvi, Imperial College London
 
 **Recognition:** This work received the UROP Prize for outstanding undergraduate research project.
 
-The research contributes to the understanding of signature methods in stochastic analysis and their practical applications in machine learning and mathematical finance.
+<!-- The research contributes to the understanding of signature methods in stochastic analysis and their practical applications in machine learning and mathematical finance. -->
