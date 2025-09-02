@@ -98,47 +98,28 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python
-#         description: 'PyTorch, NumPy, SciPy'
-#         percent: 90
-#         icon: code-bracket
-#       - name: Machine Learning
-#         description: 'Bayesian methods, Active Learning'
-#         percent: 95
-#         icon: chart-bar
-#       - name: Statistics
-#         description: 'Nonparametric inference, GP models'
-#         percent: 90
-#         icon: circle-stack
-#       - name: Research
-#         description: 'Academic writing, experimentation'
-#         percent: 85
-#         icon: academic-cap
-#   - name: Programming
-#     color: '#2563eb'
-#     color_border: '#3b82f6'
-#     items:
-#       - name: R
-#         description: 'Statistical computing'
-#         percent: 80
-#         icon: chart-bar
-#       - name: MATLAB
-#         description: 'Numerical computing'
-#         percent: 70
-#         icon: calculator
-#       - name: LaTeX
-#         description: 'Academic typesetting'
-#         percent: 85
-#         icon: document-text
+skills:
+  - name: Hobbies
+    items:
+      - name: Board games
+        description: 'The Castles of Burgundy'
+        percent: 80
+        icon: chess
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+      - name: Photography
+        description: ''
+        percent: 60
+        icon: camera
+  - name: Languages
+    items:
+      - name: English
+        percent: 75
+      - name: Chinese (Mandarin)
+        percent: 100
 
-# languages:
-#   - name: English
-#     percent: 100
-#   - name: Chinese (Mandarin)
-#     percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
