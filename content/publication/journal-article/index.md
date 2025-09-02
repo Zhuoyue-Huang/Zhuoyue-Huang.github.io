@@ -1,5 +1,9 @@
 ---
 title: "An example journal article"
+
+# COMMENTED OUT: Example publication - set draft: true to hide from site
+draft: true
+
 authors:
 - admin
 - Robert Ford

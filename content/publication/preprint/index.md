@@ -1,5 +1,9 @@
 ---
 title: "An example preprint / working paper"
+
+# COMMENTED OUT: Example publication - set draft: true to hide from site
+draft: true
+
 authors:
 - admin
 date: "2019-04-07T00:00:00Z"
