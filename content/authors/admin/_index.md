@@ -104,7 +104,7 @@ skills:
       - name: Board games
         description: 'The Castles of Burgundy, Splendor'
         percent: 80
-        icon: ♔
+        icon: puzzle-piece
       - name: Cats
         description: ''
         percent: 100
@@ -132,37 +132,37 @@ awards:
   - title: EPSRC StatML CDT Fully-funded Scholarship
     date: '2024-10-01'
     awarder: EPSRC Centre for Doctoral Training
-    icon: 🎊
+    icon: certificate
     summary: |
       Fully-funded scholarship for DPhil programme (2024-2028) at the EPSRC Centre for Doctoral Training in Statistical Machine Learning at University of Oxford.
   - title: Aspect Capital Prize
     date: '2023-06-01'
     awarder: Imperial College London
-    icon: 🎊
+    icon: certificate
     summary: |
       Awarded to the best final-year Pure Mathematics undergraduate for academic excellence.
   - title: UROP Prize
     date: '2023-06-01'
     awarder: Imperial College London
-    icon: 🎊
+    icon: certificate
     summary: |
       Recognition for outstanding Undergraduate Research Opportunities Programme project on Signature Inversion via Orthogonal Polynomials.
   - title: Dean's List
     date: '2023-06-01'
     awarder: Imperial College London
-    icon: 🎊
+    icon: certificate
     summary: |
       Awarded to top 10% of students for academic achievement (received in 2021, 2022, and 2023).
   - title: G-Research Prize
     date: '2021-06-01'
     awarder: Imperial College London
-    icon: 🎊
+    icon: certificate
     summary: |
       Awarded for academic excellence in mathematics.
   - title: First Year Project Prize
     date: '2021-06-01'
     awarder: Imperial College London
-    icon: 🎊
+    icon: certificate
     summary: |
       Awarded for best poster presentation in first year project competition.
 ---
