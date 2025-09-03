@@ -46,7 +46,7 @@ interests:
   - Uncertainty Quantification
 
 education:
-  - area: StatML CDT
+  - area: DPhil StatML CDT
     institution: University of Oxford
     date_start: 2024-10-01
     date_end: 2028-06-30
@@ -56,7 +56,7 @@ education:
       - Current project: Loss-calibrated Bayesian active learning, supervised by Dr. Tom Rainforth.
       
       - Previous project: Bayesian nonparametric inference for heterogeneous treatment effects, supervised by Prof. Judith Rousseau and Dr. Kolyan Ray.
-  - area: MASt in Mathematical Statistics (Part III)
+  - area: MASt Mathematical Statistics (Part III)
     institution: University of Cambridge
     date_start: 2023-10-01
     date_end: 2024-06-30
