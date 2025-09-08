@@ -53,17 +53,15 @@ education:
     summary: |2-
       EPSRC StatML Centre for Doctoral Training, affiliated with Jesus College
       
-      - Current project: Loss-calibrated Bayesian active learning, supervised by Dr. Tom Rainforth.
+      - Current project: Loss-calibrated Bayesian active learning, supervised by Tom Rainforth.
       
-      - Previous project: Bayesian nonparametric inference for heterogeneous treatment effects, supervised by Prof. Judith Rousseau and Dr. Kolyan Ray.
+      - Previous project: Bayesian nonparametric inference for heterogeneous treatment effects, supervised by Judith Rousseau and Kolyan Ray.
   - area: MASt Mathematical Statistics (Part III)
     institution: University of Cambridge
     date_start: 2023-10-01
     date_end: 2024-06-30
     summary: |
-      First Class Honours
-      
-      Affiliated with Churchill College
+      First Class Honours, affiliated with Churchill College
   - area: BSc Mathematics
     institution: Imperial College London
     date_start: 2020-10-01
@@ -78,7 +76,7 @@ work:
     date_start: 2024-07-01
     date_end: 2024-10-01
     summary: |
-      Bayesian Sequential Regression on Longitudinal Data (Supervisor: Dr Edwin Fong)
+      Bayesian Sequential Regression on Longitudinal Data (Supervisor: Edwin Fong)
   - position: AI Research Engineer
     company_name: Imagination Technologies
     company_url: 'https://www.imaginationtech.com/'
@@ -132,37 +130,37 @@ awards:
   - title: EPSRC StatML CDT Fully-funded Scholarship
     date: '2024-10-01'
     awarder: EPSRC Centre for Doctoral Training
-    icon: certificate
+    icon: certificate.svg
     summary: |
       Fully-funded scholarship for DPhil programme (2024-2028) at the EPSRC Centre for Doctoral Training in Statistical Machine Learning at University of Oxford.
   - title: Aspect Capital Prize
     date: '2023-06-01'
     awarder: Imperial College London
-    icon: certificate
+    icon: certificate.svg
     summary: |
       Awarded to the best final-year Pure Mathematics undergraduate for academic excellence.
   - title: UROP Prize
     date: '2023-06-01'
     awarder: Imperial College London
-    icon: certificate
+    icon: certificate.svg
     summary: |
       Recognition for outstanding Undergraduate Research Opportunities Programme project on Signature Inversion via Orthogonal Polynomials.
   - title: Dean's List
     date: '2023-06-01'
     awarder: Imperial College London
-    icon: certificate
+    icon: certificate.svg
     summary: |
       Awarded to top 10% of students for academic achievement (received in 2021, 2022, and 2023).
   - title: G-Research Prize
     date: '2021-06-01'
     awarder: Imperial College London
-    icon: certificate
+    icon: certificate.svg
     summary: |
       Awarded for academic excellence in mathematics.
   - title: First Year Project Prize
     date: '2021-06-01'
     awarder: Imperial College London
-    icon: certificate
+    icon: certificate.svg
     summary: |
       Awarded for best poster presentation in first year project competition.
 ---
