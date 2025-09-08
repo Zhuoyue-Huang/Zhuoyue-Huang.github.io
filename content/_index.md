@@ -76,7 +76,7 @@ sections:
     content:
       title: ''
       text: |-
-        <div style="text-align: center; margin: 2rem 0;">
+        <div style="text-align: center; margin: 0.5rem 0;">
           <a href="https://mapmyvisitors.com/web/1bz78" title="Visit tracker">
             <img src="https://mapmyvisitors.com/map.png?d=D0tA6CWoi0YViyH00gGSSCmQglAEHW8v5S-gUQ3MTKo&cl=ffffff" alt="Visitor Map" style="border: 0;">
           </a>
