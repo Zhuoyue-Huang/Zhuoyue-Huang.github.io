@@ -52,10 +52,6 @@ education:
     date_end: 2028-06-30
     summary: |2-
       EPSRC StatML Centre for Doctoral Training, affiliated with Jesus College
-      
-      - Current project: Loss-calibrated Bayesian active learning, supervised by Tom Rainforth.
-      
-      - Previous project: Bayesian nonparametric inference for heterogeneous treatment effects, supervised by Judith Rousseau and Kolyan Ray.
   - area: MASt Mathematical Statistics (Part III)
     institution: University of Cambridge
     date_start: 2023-10-01

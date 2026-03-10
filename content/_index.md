@@ -60,9 +60,33 @@ sections:
   #     view: article-grid
   #     columns: 2
 
-  - block: collection
+  - block: markdown
+    id: news
     content:
-      title: Recent Publications
+      title: Recent News
+      text: |-
+        <div
+          class="not-prose mt-8"
+          style="position: relative; left: 50%; transform: translateX(-50%); width: min(48rem, calc(100vw - 3rem));">
+          <article class="md:grid md:grid-cols-4 md:items-baseline">
+            <time
+              class="mb-3 block text-sm text-zinc-400 dark:text-zinc-500 md:mb-0"
+              datetime="2026-01-01">
+              Jan 2026
+            </time>
+            <p class="md:col-span-3 m-0 text-base leading-7 text-zinc-600 dark:text-zinc-400">
+              🎉 Our paper "From Decision to Acquisition: Loss-Driven Bayesian Active Learning" has been accepted by <strong>AISTATS 2026</strong>!
+            </p>
+          </article>
+        </div>
+    design:
+      columns: "1"
+
+
+  - block: collection
+    id: publications
+    content:
+      title: Publications
       text: ""
       filters:
         folders:
@@ -70,21 +94,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  
-  # Map widget section
-  - block: markdown
-    content:
-      title: ''
-      text: |-
-        <div style="text-align: center; margin: 0.5rem 0;">
-          <a href="https://mapmyvisitors.com/web/1bz78" title="Visit tracker">
-            <img src="https://mapmyvisitors.com/map.png?d=D0tA6CWoi0YViyH00gGSSCmQglAEHW8v5S-gUQ3MTKo&cl=ffffff" alt="Visitor Map" style="border: 0;">
-          </a>
-        </div>
-    design:
-      background:
-        color: 'transparent'
-  
+
   # COMMENTED OUT: Recent & Upcoming Talks section - uncomment when ready to use
   # - block: collection
   #   id: talks
@@ -96,36 +106,25 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 1
-  # COMMENTED OUT: Recent News section - uncomment when ready to use
-  # - block: collection
-  #   id: news
-  #   content:
-  #     title: Recent News
-  #     subtitle: ''
-  #     text: ''
-  #     # Page type to display. E.g. post, talk, publication...
-  #     page_type: post
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: date-title-summary
-  #     # Reduce spacing
-  #     spacing:
-  #       padding: [0, 0, 0, 0]
+
+  # Map widget section
+  - block: markdown
+    content:
+      title: ''
+      text: |-
+        <div class="not-prose" style="display: flex; justify-content: center; margin: 0.5rem 0 0;">
+          <iframe
+            src="/mapmyvisitors-widget.html"
+            title="Visitor map"
+            loading="lazy"
+            style="width: min(48rem, calc(100vw - 3rem)); aspect-ratio: 2.04 / 1; height: auto; border: 0; background: transparent; display: block;"
+          ></iframe>
+        </div>
+    design:
+      background:
+        color: 'transparent'
+      spacing:
+        padding: ['1.5rem', '0', '0', '0']
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
