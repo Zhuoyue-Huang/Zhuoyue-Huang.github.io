@@ -117,7 +117,7 @@ sections:
             src="/mapmyvisitors-widget.html"
             title="Visitor map"
             loading="lazy"
-            style="width: min(48rem, calc(100vw - 3rem)); aspect-ratio: 2.04 / 1; height: auto; border: 0; background: transparent; display: block;"
+            style="width: min(30rem, calc(100vw - 3rem)); height: 15rem; border: 0; background: transparent; display: block;"
           ></iframe>
         </div>
     design:
